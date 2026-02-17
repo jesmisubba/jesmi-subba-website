@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-  title: "Jesmi Subba — Mother. Fighter. Living Loud.",
-  description: "Fitness, boxing, motherhood, and lifestyle by Jesmi Subba.",
+  title: "Jesmi Subba — Wellness, Motherhood & Lifestyle",
+  description: "Wellness, skincare, fitness, daily routines, and building a calm beautiful life — by Jesmi Subba.",
 };
 
 export default function RootLayout({
