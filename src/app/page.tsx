@@ -105,7 +105,7 @@ function Gallery() {
         <p className="text-sm uppercase tracking-[0.2em] text-rose-400 mb-4 text-center">Moments</p>
         <h2 className="font-serif text-3xl md:text-4xl text-center mb-16">Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {["/IMG_2805.jpg", "/IMG_2860.jpg"].map((src, i) => (
+          {["/IMG_2805.jpg", "/IMG_2860.jpg", "/IMG_5777.jpg"].map((src, i) => (
             <div
               key={i}
               className="aspect-square rounded-2xl overflow-hidden hover:shadow-md transition"
