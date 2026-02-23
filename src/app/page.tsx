@@ -160,15 +160,20 @@ function Contact() {
           For collaborations, wellness chats, or just to say hi ♡
         </p>
         <div className="flex justify-center gap-6">
-          {["Instagram", "TikTok", "Email"].map((platform) => (
-            <a
-              key={platform}
-              href="#"
-              className="border border-neutral-200 rounded-full px-6 py-3 text-sm tracking-widest hover:bg-neutral-800 hover:text-white transition-all duration-300"
-            >
-              {platform}
-            </a>
-          ))}
+          <a
+            href="https://instagram.com/jesmi_chemjong"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-neutral-200 rounded-full px-6 py-3 text-sm tracking-widest hover:bg-neutral-800 hover:text-white transition-all duration-300"
+          >
+            Instagram
+          </a>
+          <a
+            href="mailto:subba.jesmi11@gmail.com"
+            className="border border-neutral-200 rounded-full px-6 py-3 text-sm tracking-widest hover:bg-neutral-800 hover:text-white transition-all duration-300"
+          >
+            Email
+          </a>
         </div>
       </div>
     </section>
