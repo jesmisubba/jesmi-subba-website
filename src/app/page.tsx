@@ -113,6 +113,14 @@ function Gallery() {
               <img src={src} alt={`Gym selfie ${i + 1}`} className="w-full h-full object-cover" />
             </div>
           ))}
+          <div className="aspect-square rounded-2xl overflow-hidden hover:shadow-md transition col-span-2 md:col-span-3">
+            <video
+              src="/pushup.mov"
+              controls
+              playsInline
+              className="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
         </div>
       </div>
     </section>
