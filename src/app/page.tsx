@@ -20,7 +20,7 @@ function Nav() {
 function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-[#faf8f5] text-neutral-800">
-      <div className="absolute inset-0 bg-[url('/placeholder-hero.jpg')] bg-cover bg-center opacity-10" />
+      <div className="absolute inset-0 bg-[url('/IMG_6718.jpg')] bg-contain bg-center bg-no-repeat opacity-20" />
       <div className="relative z-10 text-center px-6 animate-fade-in-up">
         <p className="text-sm uppercase tracking-[0.3em] text-neutral-400 mb-4">Wellness · Motherhood · Lifestyle</p>
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl mb-6 text-neutral-800">Jesmi Subba</h1>
@@ -42,8 +42,8 @@ function About() {
   return (
     <section id="about" className="py-24 px-6 bg-white text-neutral-800">
       <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <div className="aspect-[3/4] bg-[#f3efe9] rounded-2xl flex items-center justify-center text-neutral-300 text-sm">
-          Photo placeholder
+        <div className="aspect-[3/4] rounded-2xl overflow-hidden">
+          <img src="/IMG_6651.jpg" alt="Jesmi on the sofa" className="w-full h-full object-cover" />
         </div>
         <div>
           <p className="text-sm uppercase tracking-[0.2em] text-rose-400 mb-4">About Me</p>
@@ -105,12 +105,12 @@ function Gallery() {
         <p className="text-sm uppercase tracking-[0.2em] text-rose-400 mb-4 text-center">Moments</p>
         <h2 className="font-serif text-3xl md:text-4xl text-center mb-16">Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {[1, 2, 3, 4, 5, 6].map((i) => (
+          {["/IMG_2805.jpg", "/IMG_2860.jpg", "/IMG_4873.jpg", "/IMG_5777.jpg"].map((src, i) => (
             <div
               key={i}
-              className="aspect-square bg-[#f3efe9] rounded-2xl flex items-center justify-center text-neutral-300 text-sm hover:shadow-md transition"
+              className="aspect-square rounded-2xl overflow-hidden hover:shadow-md transition"
             >
-              Photo {i}
+              <img src={src} alt={`Gym selfie ${i + 1}`} className="w-full h-full object-cover" />
             </div>
           ))}
         </div>
