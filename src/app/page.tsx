@@ -43,7 +43,7 @@ function About() {
     <section id="about" className="py-24 px-6 bg-white text-neutral-800">
       <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="aspect-[3/4] rounded-2xl overflow-hidden">
-          <img src="/IMG_6651.jpg" alt="Jesmi on the sofa" className="w-full h-full object-cover" />
+          <img src="/stupa.jpg" alt="Jesmi at the stupa" className="w-full h-full object-cover" />
         </div>
         <div>
           <p className="text-sm uppercase tracking-[0.2em] text-rose-400 mb-4">About Me</p>
